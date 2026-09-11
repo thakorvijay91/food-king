@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+ --font-family: "Barlow Condensed", sans-serif;
+ 
+}
