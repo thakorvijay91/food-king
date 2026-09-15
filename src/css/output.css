@@ -8,9 +8,18 @@
       "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-cyan-200: oklch(91.7% 0.08 205.041);
+    --color-blue-500: oklch(62.3% 0.214 259.815);
+    --color-white: #fff;
     --spacing: 0.25rem;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --tracking-wide: 0.025em;
+    --radius-lg: 0.5rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --font-family: "Barlow Condensed", sans-serif;
   }
 }
 @layer base {
@@ -162,18 +171,128 @@
   }
 }
 @layer utilities {
+  .top-0 {
+    top: 0px;
+  }
+  .ms-10 {
+    margin-inline-start: calc(var(--spacing) * 10);
+  }
   .flex {
     display: flex;
+  }
+  .table {
+    display: table;
+  }
+  .border-collapse {
+    border-collapse: collapse;
+  }
+  .resize {
+    resize: both;
   }
   .items-center {
     align-items: center;
   }
-  .gap-10 {
-    gap: calc(var(--spacing) * 10);
+  .justify-between {
+    justify-content: space-between;
+  }
+  .gap-3 {
+    gap: calc(var(--spacing) * 3);
+  }
+  .gap-5 {
+    gap: calc(var(--spacing) * 5);
+  }
+  .gap-8 {
+    gap: calc(var(--spacing) * 8);
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .bg-\[url-\] {
+    background-color: url-;
+  }
+  .bg-\[url\] {
+    background-color: url;
+  }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
+  .bg-\[url\(\.src\/img\/hero-bg-3\.jpg\)\] {
+    background-image: url(.src/img/hero-bg-3.jpg);
+  }
+  .bg-\[url\(im\)\] {
+    background-image: url(im);
+  }
+  .bg-\[url\(img\/hero-bg-3\.jpg\)\] {
+    background-image: url(img/hero-bg-3.jpg);
+  }
+  .bg-\[url\(src\)\] {
+    background-image: url(src);
+  }
+  .bg-\[url\(src\/\)\] {
+    background-image: url(src/);
+  }
+  .bg-\[url\(src\/img\)\] {
+    background-image: url(src/img);
+  }
+  .bg-\[url\(src\/img\/\)\] {
+    background-image: url(src/img/);
+  }
+  .bg-\[url\(src\/img\/he\)\] {
+    background-image: url(src/img/he);
+  }
+  .bg-\[url\(src\/img\/hero\)\] {
+    background-image: url(src/img/hero);
+  }
+  .bg-\[url\(src\/img\/hero-bg-\)\] {
+    background-image: url(src/img/hero-bg-);
+  }
+  .bg-\[url\(src\/img\/hero-bg-3\.jpg\)\] {
+    background-image: url(src/img/hero-bg-3.jpg);
+  }
+  .bg-\[url\(src\/imhg\)\] {
+    background-image: url(src/imhg);
+  }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
+  }
+  .px-8 {
+    padding-inline: calc(var(--spacing) * 8);
+  }
+  .py-4 {
+    padding-block: calc(var(--spacing) * 4);
+  }
+  .font-family {
+    font-family: var(--font-family);
+  }
+  .font-medium {
+    --tw-font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-medium);
+  }
+  .underline {
+    text-decoration-line: underline;
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
   }
   .filter {
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
 }
 @property --tw-blur {
   syntax: "*";
@@ -231,6 +350,9 @@
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
+      --tw-border-style: solid;
+      --tw-font-weight: initial;
+      --tw-outline-style: solid;
       --tw-blur: initial;
       --tw-brightness: initial;
       --tw-contrast: initial;
