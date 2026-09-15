@@ -8,18 +8,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 </head>
 <body>
-     
-  <header>
-    <div class="flex items-center justify-between p-3 position-sticky top-0 border">
-
+     <!-- header  -->
+  <header class="fixed top-0 z-20 w-full">
+    <div class="flex items-center justify-between p-3  border-b border-gray-500/50">
+     <!-- header logo -->
         <div>
-            <img src="./img/logo-3.svg" alt="">
+            <a href=""><img src="./img/logo-3.svg" alt=""></a>
         </div>
 
+         <!-- nav -->
         <div  class="flex items-center ">
             <div>
                 <nav>
-                    <ul class="flex gap-5 font-family font-medium">
+                    <ul class="flex gap-5 font-family text-white font-medium">
                         <a href=""><li>HOME</li></a>
                         <a href=""><li>SHOP</li></a>
                         <a href=""><li>ABOUT US</li></a>
@@ -27,13 +28,17 @@
                     </ul>
                 </nav>
             </div>
+
+            <!-- header icon -->
             <div class="flex ms-10 gap-8">
-                <span><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></span>
-                <span><a href=""><i class="fa-solid fa-cart-shopping"></i></a></span>
+                <span><a href=""><i class="fa-solid fa-magnifying-glass text-neutral-50"></i></a></span>
+                <span><a href=""><i class="fa-solid fa-cart-shopping text-neutral-50"></i></a></span>
             </div>
-            <div class="border ms-10 px-8 py-4">
+
+            <!-- header button -->
+            <div class="border border-white ms-10 px-8 py-4">
                 <a href="">
-                    <span class="flex gap-3">
+                    <span class="flex gap-3 text-white">
                         <span><i class="fa-solid fa-truck-fast"></i></span>
                         <span class="font-family">ORDER NOW</span>
                     </span>
@@ -42,9 +47,38 @@
         </div>
     </div>
   </header>
+
+  <!-- main -->
   <section>
-    <div class="bg-[url(.src/img/hero-bg-3.jpg)]"></div>
+    <!-- hero icon -->
+    <div class="bg-[url(/src/img/hero-bg-3.jpg)] h-screen w-full relative">
+        <div class="h-screen w-full absolute ">
+            <img src="./img/frame.png   " alt="" class="absolute bottom-100 left-10">
+            <img src="./img/frame-2.png" alt="" class="absolute bottom-10 left-10">
+            <img src="./img/frame-3.png" alt="" class="absolute left-150 bottom-110">
+            <img src="./img/frame-4.png" alt="" class="absolute bottom-10 left-140">
+            <img src="./img/frame-5.png" alt="" class="absolute left-300 bottom-110">
+            <img src="./img/frame-6.png" alt="" class="absolute bottom-10 left-300">
+        </div>
+
+        <!-- hero content-->
+        <div class=" absolute h-full w-full flex ">
+            <!-- text left -->
+            <div class="w-1/4">
+              <h1 class="text-8xl font-family font-bold text-white relative  left-20 top-30">SUPER <br>DELICIOUS <br>PIZZA</h1>
+              <!-- <h4 class="text-2xl ">Star Your Order Just Only $25.00</h4> -->
+            </div>
+
+            <div class="w-3/4 h-full relative">
+                <img src="./img/pizza.png" alt="" class="scale-70 absolute right-0 animate-spin2">
+            </div>
+        </div>
+        
+    </div>
+
   </section>
-    <img src="" alt="">
+  <div class="h-screen w-full">
+
+  </div>
 </body>
 </html>

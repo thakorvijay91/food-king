@@ -2,5 +2,5 @@
 
 @theme {
  --font-family: "Barlow Condensed", sans-serif;
- 
+ --animate-spin2:spin 22s linear infinite;
 }
