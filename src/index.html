@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,99 +8,220 @@
     <link rel="stylesheet" href="./css/output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 </head>
+
 <body>
-     <!-- header  -->
-  <header class="fixed top-0 z-20 w-full">
-    <div class="flex items-center justify-between p-3  border-b border-gray-500/50">
-     <!-- header logo -->
-        <div>
-            <a href=""><img src="./img/logo-3.svg" alt=""></a>
-        </div>
-
-         <!-- nav -->
-        <div  class="flex items-center ">
+    <!-- header  -->
+    <header class="fixed top-0 z-20 w-full">
+        <div class="flex items-center justify-between p-3  border-b border-gray-500/50">
+            <!-- header logo -->
             <div>
-                <nav>
-                    <ul class="flex gap-5 font-family text-white font-medium">
-                        <a href=""><li>HOME</li></a>
-                        <a href=""><li>SHOP</li></a>
-                        <a href=""><li>ABOUT US</li></a>
-                        <a href=""><li>CONTACT</li></a>
-                    </ul>
-                </nav>
+                <a href=""><img src="./img/logo-3.svg" alt=""></a>
             </div>
 
-            <!-- header icon -->
-            <div class="flex ms-10 gap-8">
-                <span><a href=""><i class="fa-solid fa-magnifying-glass text-neutral-50"></i></a></span>
-                <span><a href=""><i class="fa-solid fa-cart-shopping text-neutral-50"></i></a></span>
+            <!-- nav -->
+            <div class="flex items-center ">
+                <div>
+                    <nav>
+                        <ul class="flex gap-5 font-family text-white font-medium">
+                            <a href="">
+                                <li>HOME</li>
+                            </a>
+                            <a href="">
+                                <li>SHOP</li>
+                            </a>
+                            <a href="">
+                                <li>ABOUT US</li>
+                            </a>
+                            <a href="">
+                                <li>CONTACT</li>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- header icon -->
+                <div class="flex ms-10 gap-8">
+                    <span><a href=""><i class="fa-solid fa-magnifying-glass text-neutral-50"></i></a></span>
+                    <span><a href=""><i class="fa-solid fa-cart-shopping text-neutral-50"></i></a></span>
+                </div>
+
+                <!-- header button -->
+                <div class="border border-white ms-10 px-8 py-4">
+                    <a href="">
+                        <span class="flex gap-3 text-white">
+                            <span><i class="fa-solid fa-truck-fast"></i></span>
+                            <span class="font-family">ORDER NOW</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- hero -->
+    <section>
+        <!-- hero icon -->
+        <div class="bg-[url(/src/img/hero-bg-3.jpg)] h-screen w-full relative">
+            <div class="h-screen w-full absolute ">
+                <img src="./img/frame.png   " alt="" class="absolute bottom-100 left-10">
+                <img src="./img/frame-2.png" alt="" class="absolute bottom-10 left-10">
+                <img src="./img/frame-3.png" alt="" class="absolute left-150 bottom-110">
+                <img src="./img/frame-4.png" alt="" class="absolute bottom-10 left-140">
+                <img src="./img/frame-5.png" alt="" class="absolute left-300 bottom-110">
+                <img src="./img/frame-6.png" alt="" class="absolute bottom-10 left-300">
             </div>
 
-            <!-- header button -->
-            <div class="border border-white ms-10 px-8 py-4">
-                <a href="">
-                    <span class="flex gap-3 text-white">
-                        <span><i class="fa-solid fa-truck-fast"></i></span>
-                        <span class="font-family">ORDER NOW</span>
+            <!-- hero content-->
+            <div class=" absolute h-full w-full flex ">
+                <!-- text left -->
+                <div class="w-1/4">
+                    <h1
+                        class="text-8xl font-family text-white relative  left-20 top-30 leading-28 tracking-tighter font-stretch-extra-expanded font-semibold">
+                        SUPER <br>DELICIOUS <br>PIZZA</h1>
+                    <h4 class="text-[20px] font-family text-white font-bold relative left-20 top-35">Star Your Order
+                        Just Only $25.00</h4>
+
+                    <!-- hero botton -->
+                    <div class="h-15 w-50 relative top-40 left-20 flex items-center justify-center bg-amber-300">
+                        <a href="">
+                            <span class="font-bold">
+                                <span>ORDER NOW </span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- right pizza -->
+                <div class="w-3/4 h-full relative">
+                    <img src="./img/pizza.png" alt="" class="scale-65 absolute right-0 animate-spin2">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- testimonial section start -->
+    <section class="h-screen grid place-items-center">
+
+        <div class="h-3/4 w-3/4 flex gap-15">
+            <!-- left img -->
+            <div class="relative">
+                <div class="h-90 w-70 bg-cover bg-[url(/src/img/04.jpg)]  "><img src="./img/shape-img.png" alt=""
+                        class="absolute top-20 -left-45 -z-1 opacity-25"></div>
+
+            </div>
+
+            <div class=" w-2/3 p-7">
+                <div>
+                    <h4 class="font-family font-semibold text-lg text-red-700">LEARN SOMETHING FOODKING</h4>
+                    <h3 class="uppercase text-xl font-bold mt-7">Welcome to our culinary haven, where each dish is a
+                        symphony of flavors meticulously crafted tantalize your taste buds. Nestled in the heart of
+                        [City], our restaurant is an inviting space that combines.</h3>
+                    <div class="flex items-center gap-5 mt-7">
+                        <div><img src="./img/05 (1).jpg" alt=""></div>
+                        <div>
+                            <h4 class="uppercase font-semibold">Michael V. Christensen / <span>CEO & Founder</span></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- marque section start -->
+    <div>
+        <ul class="flex ">
+            <marquee behavior="scroll" direction="left" scrollamount="15" class="">
+            <li class="uppercase flex gap-4 items-center">
+                    <div class="flex gap-4 items-center justify-center">
+                        <span class="text-8xl font-bold italic strock1">populer</span>
+                        <span></span>
+                        <span class="text-8xl font-bold italic strock1">dishes</span>
+                        <span class="self-end size-10">
+                            <img src="./img/star.svg" alt="" class="relative bottom-5">
+                        </span>
+                    </div>
+                    
+                    <div class="flex gap-4 items-center justify-center">
+                    <span class="text-8xl font-bold italic strock1">delicious</span>
+                    <span class="text-8xl font-bold italic strock1">food</span>
+                    <span class="self-end size-10">
+                    <img src="./img/star.svg" alt="" class="relative bottom-5">
                     </span>
-                </a>
-            </div>
-        </div>
-    </div>
-  </header>
-
-  <!-- hero -->
-  <section>
-    <!-- hero icon -->
-    <div class="bg-[url(/src/img/hero-bg-3.jpg)] h-screen w-full relative">
-        <div class="h-screen w-full absolute ">
-            <img src="./img/frame.png   " alt="" class="absolute bottom-100 left-10">
-            <img src="./img/frame-2.png" alt="" class="absolute bottom-10 left-10">
-            <img src="./img/frame-3.png" alt="" class="absolute left-150 bottom-110">
-            <img src="./img/frame-4.png" alt="" class="absolute bottom-10 left-140">
-            <img src="./img/frame-5.png" alt="" class="absolute left-300 bottom-110">
-            <img src="./img/frame-6.png" alt="" class="absolute bottom-10 left-300">
-        </div>
-
-        <!-- hero content-->
-        <div class=" absolute h-full w-full flex ">
-            <!-- text left -->
-            <div class="w-1/4">
-              <h1 class="text-8xl font-family text-white relative  left-20 top-30 leading-28 tracking-tighter font-stretch-extra-expanded font-semibold">SUPER <br>DELICIOUS <br>PIZZA</h1>
-              <h4 class="text-[20px] font-family text-white font-bold relative left-20 top-35">Star Your Order Just Only $25.00</h4>
-
-              <!-- hero botton -->
-              <div class="h-15 w-50 relative top-40 left-20 flex items-center justify-center bg-amber-300">
-                <a href="">
-                    <span class="font-bold">
-                    <span>ORDER NOW </span>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                      
+                    <div class="flex gap-4 items-center justify-center">
+                    <span class="text-8xl font-bold italic strock1">populer</span>
+                    <span class="text-8xl font-bold italic strock1">dishes</span>
+                    <span  class="self-end size-10">
+                        <img src="./img/star.svg" alt="" class="relative bottom-5">
                     </span>
-                </a>
-              </div>
-             </div>
+                    </div>
 
-            <!-- right pizza -->
-            <div class="w-3/4 h-full relative">
-                <img src="./img/pizza.png" alt="" class="scale-70 absolute right-0 animate-spin2">
+                    
+                   <div class="flex gap-4 items-center justify-center">
+                    <span class="text-8xl font-bold italic strock1">delicious</span>
+                    <span class="text-8xl font-bold italic strock1">populer</span>
+                    <span></span>
+                    <span class="text-8xl font-bold italic strock1">dishes</span>
+                    <span class="self-end size-10">
+                        <img src="./img/star.svg" alt="" class="relative bottom-5">
+                    </span>
+                    </div>
+               
+                    <div class="flex gap-4 items-center justify-center">
+                    <span class="text-8xl font-bold italic strock1">delicious</span>
+                    <span class="text-8xl font-bold italic strock1">food</span>
+                    <span class="self-end size-10">
+                    <img src="./img/star.svg" alt="" class="relative bottom-5">
+                    </span>
+                    </div>
+
+                    <div class="flex gap-4 items-center justify-center">
+                    <span class="text-8xl font-bold italic strock1">populer</span>
+                    <span class="text-8xl font-bold italic strock1">dishes</span>
+                     <span class="self-end size-10">
+                        <img src="./img/star.svg" alt="" class="relative bottom-5">
+                    </span>
+                   </div>
+                    <span class="text-8xl font-bold italic strock1">delicious</span>
+                </li>
+            </marquee>
+        </ul>
+    </div>
+
+    <!-- food banner section start -->
+    <section class="h-screen  mt-5">
+     <div class="flex gap-2 ">
+    <!-- food banner 1 -->
+     <div class="h-100 w-[33.33%] ">
+        <div class="bg-[url(/src/img/food-bg.jpg)] size-110 bg-cover bg-no-repeat">
+            <div class="bg-[url(/src/img/vector.png)] flex items-center justify-center size-20 bg-cover bg-no-repeat">
+                 <span class="text-4xl ">$35</span>
             </div>
         </div>
-        
+     </div>
+
+     <!-- food banner 2 -->
+     <div class="h-100 w-[33.33%]">
+        <div class="bg-[url(/src/img/bg.jpg)] size-110 bg-cover bg-no-repeat"></div>
+    
+     </div>
+
+     <!-- food banner 3 -->
+     <div class="h-100 w-[33.33%] ">
+        <div class="bg-[url(/src/img/food-bg-3.jpg)] size-110 bg-cover bg-no-repeat"></div>
+     </div>
+
+     </div>
+    </section>
+
+    <div class="h-screen w-full">
+
     </div>
-
-  </section>
-
-  <!-- testimonial section start -->
-  <section class="border h-screen grid place-items-center"> 
-
-    <div class="h-3/4 w-3/4 bg-red-200">
-        <div></div>
-        <div></div>
-    </div>
-
-</section>
-  <div class="h-screen w-full">
-
-  </div>
 </body>
+
 </html>
