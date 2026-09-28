@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 </head>
 
-<body>
+<body class="bg-gray-100">
     <!-- header  -->
-    <header class="fixed top-0 z-20 w-full">
+    <header id="header" class="fixed top-0 z-20 w-full">
         <div class="flex items-center justify-between p-3  border-b border-gray-500/50">
             <!-- header logo -->
             <div>
@@ -135,7 +135,7 @@
     <div>
         <ul class="flex ">
             <marquee behavior="scroll" direction="left" scrollamount="15" class="">
-            <li class="uppercase flex gap-4 items-center">
+                <li class="uppercase flex gap-4 items-center">
                     <div class="flex gap-4 items-center justify-center">
                         <span class="text-8xl font-bold italic strock1">populer</span>
                         <span></span>
@@ -144,49 +144,49 @@
                             <img src="./img/star.svg" alt="" class="relative bottom-5">
                         </span>
                     </div>
-                    
-                    <div class="flex gap-4 items-center justify-center">
-                    <span class="text-8xl font-bold italic strock1">delicious</span>
-                    <span class="text-8xl font-bold italic strock1">food</span>
-                    <span class="self-end size-10">
-                    <img src="./img/star.svg" alt="" class="relative bottom-5">
-                    </span>
-                    </div>
-                      
-                    <div class="flex gap-4 items-center justify-center">
-                    <span class="text-8xl font-bold italic strock1">populer</span>
-                    <span class="text-8xl font-bold italic strock1">dishes</span>
-                    <span  class="self-end size-10">
-                        <img src="./img/star.svg" alt="" class="relative bottom-5">
-                    </span>
-                    </div>
 
-                    
-                   <div class="flex gap-4 items-center justify-center">
-                    <span class="text-8xl font-bold italic strock1">delicious</span>
-                    <span class="text-8xl font-bold italic strock1">populer</span>
-                    <span></span>
-                    <span class="text-8xl font-bold italic strock1">dishes</span>
-                    <span class="self-end size-10">
-                        <img src="./img/star.svg" alt="" class="relative bottom-5">
-                    </span>
-                    </div>
-               
                     <div class="flex gap-4 items-center justify-center">
-                    <span class="text-8xl font-bold italic strock1">delicious</span>
-                    <span class="text-8xl font-bold italic strock1">food</span>
-                    <span class="self-end size-10">
-                    <img src="./img/star.svg" alt="" class="relative bottom-5">
-                    </span>
+                        <span class="text-8xl font-bold italic strock1">delicious</span>
+                        <span class="text-8xl font-bold italic strock1">food</span>
+                        <span class="self-end size-10">
+                            <img src="./img/star.svg" alt="" class="relative bottom-5">
+                        </span>
                     </div>
 
                     <div class="flex gap-4 items-center justify-center">
-                    <span class="text-8xl font-bold italic strock1">populer</span>
-                    <span class="text-8xl font-bold italic strock1">dishes</span>
-                     <span class="self-end size-10">
-                        <img src="./img/star.svg" alt="" class="relative bottom-5">
-                    </span>
-                   </div>
+                        <span class="text-8xl font-bold italic strock1">populer</span>
+                        <span class="text-8xl font-bold italic strock1">dishes</span>
+                        <span class="self-end size-10">
+                            <img src="./img/star.svg" alt="" class="relative bottom-5">
+                        </span>
+                    </div>
+
+
+                    <div class="flex gap-4 items-center justify-center">
+                        <span class="text-8xl font-bold italic strock1">delicious</span>
+                        <span class="text-8xl font-bold italic strock1">populer</span>
+                        <span></span>
+                        <span class="text-8xl font-bold italic strock1">dishes</span>
+                        <span class="self-end size-10">
+                            <img src="./img/star.svg" alt="" class="relative bottom-5">
+                        </span>
+                    </div>
+
+                    <div class="flex gap-4 items-center justify-center">
+                        <span class="text-8xl font-bold italic strock1">delicious</span>
+                        <span class="text-8xl font-bold italic strock1">food</span>
+                        <span class="self-end size-10">
+                            <img src="./img/star.svg" alt="" class="relative bottom-5">
+                        </span>
+                    </div>
+
+                    <div class="flex gap-4 items-center justify-center">
+                        <span class="text-8xl font-bold italic strock1">populer</span>
+                        <span class="text-8xl font-bold italic strock1">dishes</span>
+                        <span class="self-end size-10">
+                            <img src="./img/star.svg" alt="" class="relative bottom-5">
+                        </span>
+                    </div>
                     <span class="text-8xl font-bold italic strock1">delicious</span>
                 </li>
             </marquee>
@@ -195,33 +195,258 @@
 
     <!-- food banner section start -->
     <section class="h-screen  mt-5">
-     <div class="flex gap-2 ">
-    <!-- food banner 1 -->
-     <div class="h-100 w-[33.33%] ">
-        <div class="bg-[url(/src/img/food-bg.jpg)] size-110 bg-cover bg-no-repeat">
-            <div class="bg-[url(/src/img/vector.png)] flex items-center justify-center size-20 bg-cover bg-no-repeat">
-                 <span class="text-4xl ">$35</span>
+        <div class="flex gap-2 ">
+            <!-- food banner 1 -->
+            <div class="h-100 w-[33.33%] ">
+                <div class="bg-[url(/src/img/food-bg.jpg)] size-110 bg-cover bg-no-repeat relative">
+                    <div
+                        class="bg-[url(/src/img/vector.png)] flex items-center justify-center size-20 bg-cover bg-no-repeat absolute left-80 top-8">
+                        <span class="text-4xl font-bold text-header">$35</span>
+                    </div>
+
+                    <!-- food content -->
+                    <div class="absolute">
+                        <h4 class="text-tahiti font-family font-semibold text-2xl relative top-15 left-10">START PRICE
+                            $25</h4>
+                        <h2 class="text-5xl text-white font-family font-bold absolute top-25 left-10  leading-14">
+                            DELICIOUS <br> HAMBURGER <br> FRIES</h2>
+                        <div class="bg-red-500 px-8 py-5 relative top-65 left-10">
+                            <a href="">
+                                <span class="flex gap-3 text-white">
+                                    <span><i class="fa-solid fa-truck-fast"></i></span>
+                                    <span class="font-family">ORDER NOW</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- food banner 2 -->
+            <div class="h-100 w-[33.33%]">
+                <div class="bg-[url(/src/img/bg.jpg)] size-110 bg-cover bg-no-repeat relative ">
+                    <div
+                        class="bg-[url(/src/img/vector-2.png)] flex ite justify-center size-20 bg-cover bg-no-repeat absolute left-80 top-8">
+                        <span class="text-4xl font-bold text-white mt-3">$43</span>
+                    </div>
+
+                    <!-- food content -->
+                    <div class="absolute">
+                        <h4 class="text-tahiti font-family font-semibold text-2xl relative top-15 left-10">START PRICE
+                            $25</h4>
+                        <h2 class="text-5xl text-white font-family font-bold absolute top-25 left-10  leading-14">SUPER
+                            <br> CHICKEN <br> FRY</h2>
+                        <div class="bg-amber-400 px-8 py-5 relative top-65 left-10">
+                            <a href="">
+                                <span class="flex gap-3 text-header">
+                                    <span><i class="fa-solid fa-truck-fast"></i></span>
+                                    <span class="font-family ">ORDER NOW</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- food banner 3 -->
+            <div class="h-100 w-[33.33%] ">
+                <div class="bg-[url(/src/img/food-bg-3.jpg)] size-110 bg-cover bg-no-repeat relative">
+                    <div
+                        class="bg-[url(/src/img/vector.png)] flex items-center justify-center size-20 bg-cover bg-no-repeat absolute left-80 top-8">
+                        <span class="text-4xl font-bold text-header">$38</span>
+                    </div>
+
+                    <!-- food content -->
+                    <div class="absolute">
+                        <h4 class="text-tahiti font-family font-semibold text-2xl relative top-15 left-10">START PRICE
+                            $25</h4>
+                        <h2 class="text-5xl text-white font-family font-bold absolute top-25 left-10  leading-14">
+                            DELICIOUS <br> HAMBURGER <br> FRIES</h2>
+                        <div class="bg-red-500 px-8 py-5 relative top-65 left-10">
+                            <a href="">
+                                <span class="flex gap-3 text-white">
+                                    <span><i class="fa-solid fa-truck-fast"></i></span>
+                                    <span class="font-family">ORDER NOW</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- food catagory section start -->
+    <section class="h-auto">
+        <div class="absolute">
+            <img src="./img/pizza-shape.png" alt="" class="relative top-140 left-10">
+        </div>
+        <div class="absolute">
+            <img src="./img/frame-2 (1).png" alt="" class="relative left-280">
+        </div>
+
+        <!-- section title -->
+        <div class="text-center ">
+            <span class="uppercase text-xl text-red-700 font-semibold">Best Selling Dishes</span>
+            <h2 class="uppercase text-5xl font-family font-bold text-header">Explore Our Products</h2>
+        </div>
+
+        <!-- card -->
+        <div class="flex justify-center gap-5 mt-15">
+            <div class="h-100 w-65 border-none text-center bg-white">
+                <div>
+                    <h4 class="text-xl font-semibold mt-7">Single Fresh Burder</h4>
+                </div>
+                <div class="mt-2">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <span class="">(5k)</span>
+                    <h5 class="text-red-700 text-lg font-medium">price $25.59</h5>
+                </div>
+                <div class="flex justify-center items-center mt-8">
+                    <img src="./img/burger-3.png" alt="">
+                </div>
+            </div>
+            <div class="h-100 w-65 border border-none text-center bg-white">
+                <div>
+                    <h4 class="text-xl font-semibold mt-7">Pizza With Mushrooms</h4>
+                </div>
+                <div class="mt-2">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <span class="">(4k)</span>
+                    <h5 class="text-red-700 text-lg font-medium">price $20.15</h5>
+                </div>
+                <div class="flex justify-center items-center mt-8">
+                    <img src="./img/pizza.png" alt="" class="size-50">
+                </div>
+            </div>
+            <div class="h-100 w-65 border-none text-center bg-white">
+                <div>
+                    <h4 class="text-xl font-semibold mt-7">Double Burger & Fries</h4>
+                </div>
+                <div class="mt-2">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <span class="">(5k)</span>
+                    <h5 class="text-red-700 text-lg font-medium">price $38.00</h5>
+                </div>
+                <div class="flex justify-center items-center mt-8">
+                    <img src="./img/main-food-4.png" alt="">
+                </div>
+            </div>
+            <div class="h-100 w-65 border-none text-center bg-white">
+                <div>
+                    <h4 class="text-xl font-semibold mt-7">Fried Chicken French</h4>
+                </div>
+                <div class="mt-2">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <span class="">(5k)</span>
+                    <h5 class="text-red-700 text-lg font-medium">price $23.85</h5>
+                </div>
+                <div class="flex justify-center items-center mt-8">
+                    <img src="./img/fried-chicken.png" alt="">
+                </div>
             </div>
         </div>
-     </div>
+        <div class="flex justify-center gap-5 mt-5">
+            <div class="h-100 w-65 border-none text-center bg-white">
+                <div>
+                    <h4 class="text-xl font-semibold mt-7">Seafood Dish & Crabs</h4>
+                </div>
+                <div class="mt-2">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <span class="">(5k)</span>
+                    <h5 class="text-red-700 text-lg font-medium">price $13.00</h5>
+                </div>
+                <div class="flex justify-center items-center mt-8">
+                    <img src="./img/seafood-dish.png" alt="">
+                </div>
+            </div>
+            <div class="h-100 w-65 border-none text-center bg-white">
+                <div>
+                    <h4 class="text-xl font-semibold mt-7">Single Fresh Burger</h4>
+                </div>
+                <div class="mt-2">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <span class="">(4k)</span>
+                    <h5 class="text-red-700 text-lg font-medium">price $28.50</h5>
+                </div>
+                <div class="flex justify-center items-center mt-8">
+                    <img src="./img/fresh-burger.png" alt="">
+                </div>
+            </div>
+            <div class="h-100 w-65 border-none text-center bg-white">
+                <div>
+                    <h4 class="text-xl font-semibold mt-7">Dum Chicken-Biryani</h4>
+                </div>
+                <div class="mt-2">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <span class="">(5k)</span>
+                    <h5 class="text-red-700 text-lg font-medium">price $30.00</h5>
+                </div>
+                <div class="flex justify-center items-center mt-8">
+                    <img src="./img/chicken-biryani.png" alt="">
+                </div>
+            </div>
+            <div class="h-100 w-65 border-none text-center bg-white">
+                <div>
+                    <h4 class="text-xl font-semibold mt-7">Pizza With Creamy Sauce</h4>
+                </div>
+                <div class="mt-2">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <span class="">(5k)</span>
+                    <h5 class="text-red-700 text-lg font-medium">price $33.98</h5>
+                </div>
+                <div class="flex justify-center items-center mt-8">
+                    <img src="./img/pizza-creamy.png" alt="">
+                </div>
+            </div>
+        </div>
 
-     <!-- food banner 2 -->
-     <div class="h-100 w-[33.33%]">
-        <div class="bg-[url(/src/img/bg.jpg)] size-110 bg-cover bg-no-repeat"></div>
-    
-     </div>
-
-     <!-- food banner 3 -->
-     <div class="h-100 w-[33.33%] ">
-        <div class="bg-[url(/src/img/food-bg-3.jpg)] size-110 bg-cover bg-no-repeat"></div>
-     </div>
-
-     </div>
     </section>
+
+    <section></section>
 
     <div class="h-screen w-full">
 
     </div>
+
+    <script src="js/jquery-4.0.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      
+    </script>
 </body>
 
 </html>
