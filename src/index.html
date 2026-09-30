@@ -7,13 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css" />
 </head>
 
 <body class="bg-gray-100">
     <!-- header  -->
-    <header id="header" class="fixed top-0 z-20 w-full">
+    <header  class="fixed top-0 z-20 w-full">
         <div class="flex items-center justify-between p-3  border-b border-gray-500/50">
             <!-- header logo -->
             <div>
@@ -237,7 +236,8 @@
                         <h4 class="text-tahiti font-family font-semibold text-2xl relative top-15 left-10">START PRICE
                             $25</h4>
                         <h2 class="text-5xl text-white font-family font-bold absolute top-25 left-10  leading-14">SUPER
-                            <br> CHICKEN <br> FRY</h2>
+                            <br> CHICKEN <br> FRY
+                        </h2>
                         <div class="bg-amber-400 px-8 py-5 relative top-65 left-10">
                             <a href="">
                                 <span class="flex gap-3 text-header">
@@ -492,30 +492,37 @@
     </section>
 
     <!-- today nest sale banner start -->
-     <section class="h-screen">
-       <div class="flex">
-        <!-- 1 banner -->
+    <section class="h-screen">
+        <div class="flex">
+            <!-- 1 banner -->
             <div class="h-screen w-2/3">
-              <img src="./img/best-sale-3.jpg" alt="" class="swiper size-3/3">
-            </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/best-sale-3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/01.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/03.jpg" alt=""></div>
+                    </div>
+                </div>
+    </div>
 
             <!-- text left -->
-            <div class="h-screen w-1/3 border bg-mint bg-[url(src/img/shape(1).png)] size-100">
+            <div class="h-screen w-1/3 bg-mint bg-[url(src/img/shape(1).png)] size-100">
                 <div class="relative">
                     <img src="./img/fry-shape-4.png" alt="" class="absolute left-80 top-15">
                 </div>
-                 <div class="relative">
+                <div class="relative">
                     <img src="./img/burger-shape-4.png" alt="" class="absolute left-80 top-120">
                 </div>
                 <div class="relative">
-                <h4 class="text-king text-xl font-semibold absolute left-15 top-20">Deal Of The Day</h4>
-                <h2 class="text-king text-[40px] font-bold absolute left-15 top-28">TODAY'S THE <br> HAMBUEGER' <br> DAY</h2>
+                    <h4 class="text-king text-xl font-semibold absolute left-15 top-20">Deal Of The Day</h4>
+                    <h2 class="text-king text-[40px] font-bold absolute left-15 top-28">TODAY'S THE <br> HAMBUEGER' <br>
+                        DAY</h2>
                 </div>
 
-                
+
             </div>
         </div>
-     </section>
+    </section>
 
 
     <div class="h-screen w-full">
@@ -525,8 +532,8 @@
     <script src="js/jquery-4.0.0.min.js"></script>
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
-     <script>
-      var swiper = new Swiper('.mySwiper', {});
+    <script>
+        var swiper = new Swiper('.mySwiper', {});
     </script>
 </body>
 
