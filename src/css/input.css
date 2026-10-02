@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
- --font-family: "Barlow Condensed", sans-serif;
+ --font-ravi: "Barlow Condensed", sans-serif;
  --animate-spin2:spin 22s linear infinite;
  --color-tahiti:#FFB936;
  --color-header:#212121;
