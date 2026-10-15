@@ -11,10 +11,10 @@
 </head>
 <body class="p-0 m-0 box-border bg-gray-100">
     
-<!-- header -->
+<!-- header start-->
 
 <header class="border">
-    <div class="flex items-center">
+    <div class="flex items-center justify-between w-full h-23 pl-20">
     <!-- logo -->
     <div>
         <a href=""><img src="./img/logo.svg" alt=""></a>
@@ -22,26 +22,42 @@
     <!-- header left -->
      <div>
         <nav>
-            <ul class="flex">
-                <li>HOME</li>
-                <li>SHOP</li>
-                <li>ABOUT US</li>
-                <li>CONTACT</li>
+            <ul class="flex gap-10 font-bold font-ravi text-sm">
+                <a href=""><li>HOME</li></a>
+                <a href=""><li>SHOP</li></a>
+                <a href=""><li>ABOUT US</li></a>
+                <a href=""><li>CONTACT</li></a>
             </ul>
         </nav>
      </div>
      <!-- header right -->
-    <div class="flex">
+    <div class="flex items-center gap-5 pr-20">
         <div>
             <a href="" ><i class="fa-solid fa-basket-shopping" style="color: rgb(238, 61, 61);" ></i></a>
         </div>
         <div>
-            <a href="" ><span class="h-10 w-20 bg-mint border"></span></a>
+            <a href="" ><div class="h-15 w-45 bg-mint border  flex items-center justify-center text-king font-ravi text-sm font-semibold rounded-xl">CONTACT US</div></a>
+           
         </div>
-        <div></div>
+        <div> <a href=""><i class="fa-solid fa-bars"></i></a></div>
     </div>
     </div>
 </header>
+
+<!-- breadcrum sectoin start -->
+ <section class="h-auto border">
+   <div class="bg-[url(/src/img/breadcrumb.jpg)] h-90 w-full bg-no-repeat bg-cover bg-center relative">
+    <!-- text contact -->
+     <div>
+        <h1 class="text-[60px] text-king font-semibold font-ravi absolute top-25 left-130">SHOP PAGE</h1>
+        <ul class="flex text-mint font-semibold font-ravi absolute top-45 left-150">
+            <li><a href="">HOME PAGE</a></li>
+            <li><i class="fa-solid fa-angle-right"></i></li>
+            <li><a href=""></a>SHOP PAGE</li>
+        </ul>    
+     </div>
+   </div>
+ </section>
 <script src="js/jquery-4.0.0.min.js"></script>
 <script src="js/script.js"></script>   
 </body>
