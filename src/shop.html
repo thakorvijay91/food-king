@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body class="p-0 m-0 box-border bg-gray-100">
+<body class="p-0 m-0 box-border">
     
 <!-- header start-->
 
-<header class="border">
+<header>
     <div class="flex items-center justify-between w-full h-23 pl-20">
     <!-- logo -->
     <div>
@@ -45,7 +45,7 @@
 </header>
 
 <!-- breadcrum sectoin start -->
- <section class="h-auto border">
+ <section class="h-auto ">
    <div class="bg-[url(/src/img/breadcrumb.jpg)] h-90 w-full bg-no-repeat bg-cover bg-center relative">
     <!-- text contact -->
      <div>
@@ -58,6 +58,45 @@
      </div>
    </div>
  </section>
+
+ <!-- food cataagory section start -->
+  <section class="h-screen border">
+   <div class="mx-auto h-full w-4/5 border">
+    <!-- woocommerce-notices-wrapper -->
+    <div class="h-15 w-full border flex items-center justify-between">
+        <div class="flex items-center gap-15 pl-5">
+            <h5>
+            <a href="" class="flex items-center gap-3">
+                <img src="./img/filter.png" alt="">
+                <span class="font-ravi font-semibold text-header">
+                    Filtering
+                </span>
+                </a>
+            </h5>
+
+            <h5 class="font-ravi font-semibold text-header">
+                <a href="">
+                    Showing<span class="text-green-700 text-sm">1–12</span> of 27 results
+                </a>
+            </h5>
+        </div>
+        <div class="flex  items-center gap-4 pr-9">
+            <h6>Sort by: 
+                <a href=""><i class="fa-solid fa-up-down"></i></a>
+            </h6>
+            <div>
+                <span>Price</span><i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="red" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-grid-3x3 preview-icon"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg></a>
+            </div>
+            <div>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-table-of-contents preview-icon"><path d="M16 5H3"/><path d="M16 12H3"/><path d="M16 19H3"/><path d="M21 5h.01"/><path d="M21 12h.01"/><path d="M21 19h.01"/></svg></a>
+            </div>
+        </div>
+    </div>
+   </div>
+  </section>
 <script src="js/jquery-4.0.0.min.js"></script>
 <script src="js/script.js"></script>   
 </body>
