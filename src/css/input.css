@@ -2,6 +2,7 @@
 
 @theme {
  --font-ravi: "Barlow Condensed", sans-serif;
+ --font-face: "Barlow", sans-serif;
  --animate-spin2:spin 22s linear infinite;
  --color-theme:#D12525;
  --color-theme1:#00813D;
@@ -18,6 +19,12 @@
 .strock1{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #A4A4A4;
+    -webkit-text-fill-color: transparent;
+}
+ 
+.strock2{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#D12525;
     -webkit-text-fill-color: transparent;
 }
 

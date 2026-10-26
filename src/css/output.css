@@ -255,6 +255,9 @@
   .top-20 {
     top: calc(var(--spacing) * 20);
   }
+  .top-24 {
+    top: calc(var(--spacing) * 24);
+  }
   .top-25 {
     top: calc(var(--spacing) * 25);
   }
@@ -381,6 +384,9 @@
   .left-35 {
     left: calc(var(--spacing) * 35);
   }
+  .left-40 {
+    left: calc(var(--spacing) * 40);
+  }
   .left-53 {
     left: calc(var(--spacing) * 53);
   }
@@ -468,11 +474,17 @@
   .ms-10 {
     margin-inline-start: calc(var(--spacing) * 10);
   }
+  .ms-11 {
+    margin-inline-start: calc(var(--spacing) * 11);
+  }
   .ms-16 {
     margin-inline-start: calc(var(--spacing) * 16);
   }
   .ms-17 {
     margin-inline-start: calc(var(--spacing) * 17);
+  }
+  .mt-1 {
+    margin-top: var(--spacing);
   }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
@@ -618,6 +630,9 @@
   .h-16 {
     height: calc(var(--spacing) * 16);
   }
+  .h-17 {
+    height: calc(var(--spacing) * 17);
+  }
   .h-18 {
     height: calc(var(--spacing) * 18);
   }
@@ -629,6 +644,9 @@
   }
   .h-55 {
     height: calc(var(--spacing) * 55);
+  }
+  .h-65 {
+    height: calc(var(--spacing) * 65);
   }
   .h-75 {
     height: calc(var(--spacing) * 75);
@@ -770,6 +788,9 @@
   }
   .w-\[60\%\] {
     width: 60%;
+  }
+  .w-\[70\%\] {
+    width: 70%;
   }
   .w-\[80\%\] {
     width: 80%;
@@ -916,6 +937,9 @@
   .bg-amber-400 {
     background-color: var(--color-amber-400);
   }
+  .bg-base {
+    background-color: var(--color-base);
+  }
   .bg-gray-100 {
     background-color: var(--color-gray-100);
   }
@@ -980,6 +1004,9 @@
   .bg-\[url\(\/src\/img\/breadcrumb\.jpg\)\] {
     background-image: url(/src/img/breadcrumb.jpg);
   }
+  .bg-\[url\(\/src\/img\/burger-bg\.png\)\] {
+    background-image: url(/src/img/burger-bg.png);
+  }
   .bg-\[url\(\/src\/img\/food-bg-3\.jpg\)\] {
     background-image: url(/src/img/food-bg-3.jpg);
   }
@@ -994,6 +1021,9 @@
   }
   .bg-\[url\(\/src\/img\/main-cta-bg-3\.jpg\)\] {
     background-image: url(/src/img/main-cta-bg-3.jpg);
+  }
+  .bg-\[url\(\/src\/img\/pepsi-bg\.png\)\] {
+    background-image: url(/src/img/pepsi-bg.png);
   }
   .bg-\[url\(\/src\/img\/vector-2\.png\)\] {
     background-image: url(/src/img/vector-2.png);
@@ -1058,8 +1088,17 @@
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
   }
+  .px-10 {
+    padding-inline: calc(var(--spacing) * 10);
+  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
+  }
+  .py-3\.5 {
+    padding-block: calc(var(--spacing) * 3.5);
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
@@ -1091,6 +1130,10 @@
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
   .text-4xl {
     font-size: var(--text-4xl);
@@ -1144,6 +1187,10 @@
   .text-\[60px\] {
     font-size: 60px;
   }
+  .leading-6 {
+    --tw-leading: calc(var(--spacing) * 6);
+    line-height: calc(var(--spacing) * 6);
+  }
   .leading-7 {
     --tw-leading: calc(var(--spacing) * 7);
     line-height: calc(var(--spacing) * 7);
@@ -1156,6 +1203,10 @@
     --tw-leading: calc(var(--spacing) * 12);
     line-height: calc(var(--spacing) * 12);
   }
+  .leading-13 {
+    --tw-leading: calc(var(--spacing) * 13);
+    line-height: calc(var(--spacing) * 13);
+  }
   .leading-14 {
     --tw-leading: calc(var(--spacing) * 14);
     line-height: calc(var(--spacing) * 14);
@@ -1163,6 +1214,10 @@
   .leading-15 {
     --tw-leading: calc(var(--spacing) * 15);
     line-height: calc(var(--spacing) * 15);
+  }
+  .leading-17 {
+    --tw-leading: calc(var(--spacing) * 17);
+    line-height: calc(var(--spacing) * 17);
   }
   .leading-28 {
     --tw-leading: calc(var(--spacing) * 28);
@@ -1336,6 +1391,11 @@
 .strock1 {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #A4A4A4;
+  -webkit-text-fill-color: transparent;
+}
+.strock2 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #D12525;
   -webkit-text-fill-color: transparent;
 }
 .swiper {
